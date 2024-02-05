@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Calculadora Javascript</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="conteudo">
+        <div class="formulario">
+            <form>
+               <div class="campo">
+                    <label for="number1">Number1: </label>
+                    <input type="number" id="txtValor1" />
+               </div>
+               <div class="campo">
+                    <label for="number2">Number2: </label>
+                    <input type="number" id="txtValor2" />
+               </div>
+               <div class="campo">
+                    <label>Operação</label>
+                    <select name="cbxOperacao" id="cbxOperacao">
+                        <option value="+">Adição</option>
+                        <option value="-">Subtração</option>
+                        <option value="/">Divisão</option>
+                        <option value="*">Multiplicação</option>
+                    </select>
+               </div>
+
+               <div class="botao">
+                    <button type="button" onclick="calcularValores()">Calcular</button>
+               </div>
+
+               <div class="campo">
+                    <label for="resultado">Resultado:</label>
+                    <span class="resultado" id="txtResultado">-</span>
+               </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções de Array - Despesas</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <section>
+        <h1>CONTROLADOR DE DESPESA</h1>
+        <h2>Cadastrar Despesas</h2>
+
+        <div id="register">
+            <label for="valor">Valor: </label>
+            <input type="number" name="valor" id="valor" />
+            <label for="tipo">Tipo (CASA, REFEIÇÕES, LAZER, ETC...):</label>
+            <select id="option1">
+                <option value="casa">Casa</option>
+                <option value="refeições">Refeições</option>
+                <option value="lazer">Lazer</option>
+                <option value="viagens">Viagens</option>
+            </select>
+
+            <label>Descrição</label>
+            <input type="text" name="descricao" id="descricao" >
+            <button onclick="ValidarCadastro()">Cadastrar Despesa</button>
+            <button onclick="LimparCadastro()">Limpar Cadastro</button>
+        </div>
+    </section>
+
+    <div id="listaDespesa">
+
+    </div>
+    
+
+    <section>
+        <h1>Despesas Detalhadas</h1>
+        <div id="Details">
+            <label for="">Valor Máximo</label>
+            <input type="text" name="" id="maximo">
+            <label for="">Valor Minímo</label>
+            <input type="text" name="" id="minimo">
+            <select id="option2">
+                <option value="casa">Casa</option>
+                <option value="refeicões">Refeições</option>
+                <option value="lazer">Lazer</option>
+                <option value="viagens">Viagens</option>
+            </select>
+
+            <button onclick="">Filtrar</button>
+            <button onclick="">Limpar Filtros</button>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

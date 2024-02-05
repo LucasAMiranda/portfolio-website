@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuários</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>Listando Usuários Cadastrados</h1>
+
+    <form id="userForm">
+        <label>Nome: </label>
+        <input type="text" name="name" id="name" />
+
+        <label>Email: </label>
+        <input type="email" name="Email" id="email" />
+
+        <button onclick="AddUser()">Add User</button>
+    </form>
+
+    <div id="userList">
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

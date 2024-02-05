@@ -1,0 +1,46 @@
+body{
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    color: #f00000;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+}
+
+#formInput{
+    display: flex;
+    flex-direction: column;
+    padding: 8px ;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+input{
+    padding: 20px;
+}
+
+input[type="text"]{
+    outline:none;
+    border-radius: 0 2px 0 2px; 
+    box-shadow: 5px 10px ;
+    padding: 20px;
+    width: 40%;
+}
+
+
+footer{
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: fantasy;
+}
